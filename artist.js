@@ -49,16 +49,11 @@ class Artist {
         this.name = name;
         this.age = age;
         this.genre = genre;
-        this.label = label;
-        this.albums = [];
         this.songs = [];
         this.image = "";
         this.website = "";
     }
-    addSong(song) {
-        this.songs.push(song);
-        console.log(`This is another ${song} for ${this.name}`);
-    }
+    
 
     
-const hozier = new Artist('Hozier', '99', 'rock', 'cash money records');
+const hozier = new Artist('Hozier', '31', 'blues', "movement");
